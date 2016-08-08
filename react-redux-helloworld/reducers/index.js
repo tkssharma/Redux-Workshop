@@ -12,7 +12,7 @@ const helloWorld = (state = { message: 'Hello' }, action) => {
 }
 
 const helloReducer = combineReducers({
-  helloWorld
+  helloWorld : helloWorld
 })
 
 export default helloReducer

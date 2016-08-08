@@ -7,7 +7,7 @@
     "build": "webpack --config ./webpack.prod.config.js --progress --colors",
     "start": "node server.js"
   },
-  "author": "Vaibhav Mule",
+  "author": "tks",
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.7.4",
@@ -19,6 +19,7 @@
     "react-redux": "^4.4.4",
     "redux": "^3.4.0",
     "redux-logger": "^2.6.1",
+    "redux-promise": "^0.5.3",
     "redux-thunk": "^2.0.1"
   },
   "devDependencies": {
